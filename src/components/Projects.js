@@ -1,4 +1,5 @@
 import React from "react";
+import './Projects.css';
 import "./Footer.css";
 import git from "../icons/github.png";
 import fruits from "../icons/fruits.png";
@@ -21,7 +22,7 @@ const Projects = () => {
             <div style={{ height: "300px" }} className="overflow-hidden mb-2">
               <img className="w-100" src={fruits} alt="" />
             </div>
-            <button className="btn border">
+            <button className="btn project-btn">
               <a
                 className="text-decoration-none text-dark"
                 href="https://fruits-inventory-f76b8.web.app/"
@@ -29,7 +30,7 @@ const Projects = () => {
                 Live site
               </a>
             </button>
-            <button className="btn border ms-2">
+            <button className="btn project-btn ms-2">
               <a
                 className="text-decoration-none text-dark"
                 href="https://github.com/alanas59/fruits-warehouse-client"
@@ -41,7 +42,7 @@ const Projects = () => {
             <div className="mt-2">
               <button 
               onClick={()=>handleProject("fruits")}
-              className="btn border">See Details</button>
+              className="btn project-btn">See Details</button>
             </div>
           </div>
 
@@ -50,7 +51,7 @@ const Projects = () => {
             <div style={{ height: "300px" }} className="overflow-hidden mb-2">
               <img className="w-100" src={air} alt="" />
             </div>
-            <button className="btn border">
+            <button className="btn project-btn">
               <a
                 className="text-decoration-none text-dark"
                 href="https://air-condtion-tools.web.app/"
@@ -59,7 +60,7 @@ const Projects = () => {
                 Live site
               </a>
             </button>
-            <button className="btn border ms-2">
+            <button className="btn project-btn ms-2">
               <a
                 className="text-decoration-none text-dark"
                 href="https://github.com/alanas59/air-condition-tools-client"
@@ -71,7 +72,7 @@ const Projects = () => {
             <div className="mt-2">
               <button
                onClick={()=>handleProject("air-condition")}
-               className="btn border">See Details</button>
+               className="btn project-btn project-btn">See Details</button>
             </div>
           </div>
 
@@ -81,7 +82,7 @@ const Projects = () => {
             <div style={{ height: "300px" }} className="overflow-hidden mb-2">
               <img className="w-100" src={visa} alt="" />
             </div>
-            <button className="btn border">
+            <button className="btn project-btn">
               <a
                 className="text-decoration-none text-dark"
                 href="https://visa-consultant.web.app/"
@@ -89,7 +90,7 @@ const Projects = () => {
                 Live site
               </a>
             </button>
-            <button className="btn border ms-2">
+            <button className="btn ms-2 project-btn">
               <a
                 className="text-decoration-none text-dark"
                 href="https://github.com/alanas59/bd-visa-consultancy"
@@ -101,7 +102,7 @@ const Projects = () => {
             <div className="mt-2">
               <button 
               onClick={()=>handleProject("visa")}
-              className="btn border">See Details</button>
+              className="btn project-btn">See Details</button>
             </div>
           </div>
         </div>
