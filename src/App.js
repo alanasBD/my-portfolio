@@ -10,6 +10,7 @@ import Blogs from "./components/Blogs";
 import Visa from "./components/Visa";
 import Fruits from "./components/Fruits";
 import Air from "./components/Air";
+import Particle from "./components/Particle";
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
 
       </Routes>
       <Footer></Footer>
+      <Particle></Particle>
     </div>
   );
 }
